@@ -8,7 +8,7 @@ namespace Tyuiu.ShakirovSA.Sprint1.Task2.V13.Test
         public void CheckConverMilesToKM()
         {
             DataService ds = new DataService();
-            Assert.AreEqual(8.05, ds.ConvertMilesToKm(5));
+            Assert.AreEqual(8.047, ds.ConvertMilesToKm(5));
         }
     }
 }
