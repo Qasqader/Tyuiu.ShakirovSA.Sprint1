@@ -8,8 +8,10 @@ namespace Tyuiu.ShakirovSA.Sprint1.Task4.V5.Test
         public void CheckCalculateValid()
         {
             DataService ds = new DataService();
-            double x = Math.Round((1 / Math.Abs(2 + Math.Sqrt(4))), 3); ;
-            Assert.AreEqual(x, ds.Calculate(2, 4));
+            double x = 2;
+            double y = 4;
+            double wait = 0.25;
+            Assert.AreEqual(wait , ds.Calculate(x,y));
         }
     }
 }

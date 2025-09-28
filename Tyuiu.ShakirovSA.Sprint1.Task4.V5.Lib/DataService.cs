@@ -5,7 +5,8 @@ namespace Tyuiu.ShakirovSA.Sprint1.Task4.V5.Lib
     {
         public double Calculate(double x, double y)
         {
-            return Math.Round((1 / Math.Abs(x + Math.Sqrt(y))), 3);
+            var res = Math.Round(1 / ((Math.Abs(x) + Math.Sqrt(y))), 3);
+            return res;
         }
     }
 }
