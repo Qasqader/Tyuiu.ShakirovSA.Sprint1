@@ -15,7 +15,7 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Результат:                                                              *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine(" 1 / abs(x + sqrt(y)) =  " + ds.Calculate(x,y));
+        Console.WriteLine(" Результатом вычислений являеется =  " + ds.Calculate(x,y));
         Console.ReadLine();
     }
 }
