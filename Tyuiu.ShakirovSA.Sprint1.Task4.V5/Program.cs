@@ -15,7 +15,7 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Результат:                                                              *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine(" Результатом вычислений являеется " + ds.Calculate(x, y));
+        Console.WriteLine(" Результатом являеется " + ds.Calculate(x, y));
         Console.ReadLine();
     }
 }
